@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="../index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="../Project1-Collage website /index.html">HOME</a></li>
+                    <li><a href="../Project1-Collage website /about.html">ABOUT</a></li>
+                    <li><a href="../Project1-Collage website /courses.html">COURSE</a></li>
+                    <li><a href="../Project1-Collage website /blog.html">BLOG</a></li>
+                    <li><a href="../Project1-Collage website /contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Program For 2021</h1>
+    </section>
+
+
+    <!--------------------- blog page content ----------------------->
+
+    <section class="blog-col">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Program For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, voluptate dolores laborum officiis
+                    id quae fugiat, quo illo, maxime reiciendis quibusdam molestiae? Cumque sequi nulla, ipsam debitis
+                    eveniet ab ad qui doloribus repellat magnam nostrum facilis eum nam ipsa corporis itaque tenetur?
+                    Officia vel nisi illum possimus adipisci provident ut?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque inventore, cupiditate accusamus
+                    obcaecati expedita tempore provident praesentium ratione ipsam, autem at aspernatur alias nemo odit
+                    laborum quibusdam quia aperiam illo perspiciatis? Eveniet nemo nesciunt voluptate veniam quis nam
+                    vel consectetur magnam, temporibus aliquam neque quibusdam velit expedita, ullam consequuntur
+                    voluptatum hic sit quo fugiat quae incidunt veritatis minus! Deserunt ad rerum beatae corrupti magni
+                    tempore exercitationem sunt dicta asperiores aliquid cumque, corporis officiis quam et quis
+                    voluptatem esse blanditiis optio.</p>
+                <br>
+                <p>ipsum dolor, sit amet consectetur adipisicing elit. Harum distinctio reiciendis autem, ratione velit
+                    consequatur recusandae error asperiores? Explicabo magnam tenetur itaque aperiam, deserunt illo
+                    quod, voluptates delectus, dicta omnis iste unde voluptatibus molestiae nam quis nesciunt fugiat. In
+                    aliquam perferendis quia voluptate temporibus rerum ab error aspernatur necessitatibus maiores hic
+                    cumque dolorem exercitationem atque delectus iusto autem beatae iure aperiam deleniti enim, sint,
+                    nobis eos eum! Harum dolorem soluta natus aliquam suscipit ex accusamus! Ducimus tempore, earum at
+                    quaerat molestiae ut vel perspiciatis quod delectus, harum et ea magni, optio consequuntur
+                    voluptatum est voluptas aspernatur veniam voluptates reiciendis. Assumenda?</p>
+
+
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text " placeholder="Enter Name ">
+                        <input type="email" placeholder="Enter Email ">
+                        <textarea rows="5" placeholder="Leave your Comment"></textarea>
+                        <button type="submit" class="hero-btn exp-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Machone Learning</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Civil</span>
+                    <span>27</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------- Footer ------------------------------->
+    <Footer class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel inventore, dolores aliquid quasi
+            <br>consectetur illum praesentium voluptatum reprehenderit ducimus eius?
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made by <i class="fa fa-heart"></i> by Nishant Shaklan</p>
+
+    </Footer>
+    
+     <!--------------------------- Javascript ------------------>
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right ="0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>
